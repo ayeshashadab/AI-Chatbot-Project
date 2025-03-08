@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Customer Support Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <h1 class="logo">CustomerCare</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#chat">Chatbot</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to <span>CustomerCare</span></h2>
+            <p>Your 24/7 virtual assistant for fast and reliable customer support.</p>
+            <a href="#chat" class="btn">Start Chatting</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="icon">💬</i>
+                    <h3>Instant Responses</h3>
+                    <p>Get immediate answers to your queries anytime, anywhere.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="icon">🕒</i>
+                    <h3>24/7 Availability</h3>
+                    <p>Our chatbot is always ready to help, no matter the time.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="icon">🔒</i>
+                    <h3>Secure Assistance</h3>
+                    <p>Your data and interactions are safe and private.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="chat" class="chat">
+        <div class="container">
+            <h2>Chat with Our Bot</h2>
+            <div id="chatbot-container">
+                <p>Please click on the chat icon to the side of the page to chat! We hope to solve the all common queries of our customers.</p>
+                <html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/purple.png') }}" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is QuickSupport. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = { request,script_root,tojson };
+    </script>
+    <script
+        type="text/javascript" src="{{ url_for('static', filename='app.js')}}"></script>
+    </script>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us for further support.</p>
+            <a href="mailto:support@customercare.com" class="btn">Email Support</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 CustomerCare. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
